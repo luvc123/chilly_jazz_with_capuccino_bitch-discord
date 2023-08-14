@@ -1,12 +1,3 @@
-/**
- * @name midnight
- * @description A darkened discord theme.
- * @author refact0r
- * @version 1.5.0
- * @source https://github.com/refact0r/midnight-discord
- * @authorId 508863359777505290
-*/
-
 /* IMPORTANT: make sure to enable dark mode in discord settings for the theme to apply properly!! */
 
 @import url('https://refact0r.github.io/midnight-discord/midnight.css');
@@ -19,45 +10,45 @@
 	--roundness: 16px;
 
 	/* color of links */
-	--accent-1: hsl(190, 70%, 60%);
+	--accent-1: #e09952;
 	/* color of unread dividers and some indicators */
-	--accent-2: hsl(190, 70%, 50%);
+	--accent-2: #d97a26;
 	/* color of accented buttons */
-	--accent-3: hsl(190, 70%, 40%);
+	--accent-3: #ad681f;
 	/* color of accented buttons when hovered */
-	--accent-4: hsl(190, 70%, 30%);
+	--accent-4: #824217;
 	/* color of accented buttons when clicked */
-	--accent-5: hsl(190, 70%, 20%);
+	--accent-5: #824417;
 
 	/* color of mentions and messages that mention you */
-	--mention: hsla(190, 60%, 50%, 0.1);
+	--mention: #cc7a331a;
 	/* color of mentions and messages that mention you when hovered */
-	--mention-hover: hsla(190, 60%, 50%, 0.05);
+	--mention-hover: #cc78330d;
 
 	/* color of bright text on colored buttons */
-	--text-1: hsl(220, 40%, 90%);
+	--text-1: #f0e3db;
 	/* color of headings and important text */
-	--text-2: hsl(220, 30%, 70%);
+	--text-2: #c9b29c;
 	/* color of normal text */
-	--text-3: hsl(220, 15%, 60%);
+	--text-3: #a8988a;
 	/* color of icon buttons and channels */
-	--text-4: hsl(220, 15%, 40%);
+	--text-4: #756457;
 	/* color of muted channels/chats and timestamps */
-	--text-5: hsl(220, 15%, 24%);
+	--text-5: #463b34;
 
 	/* color of dark buttons when clicked */
-	--bg-1: hsl(220, 15%, 20%);
+	--bg-1: #3b322b;
 	/* color of dark buttons */
-	--bg-2: hsl(220, 15%, 16%);
+	--bg-2: #2f2823;
 	/* color of spacing around panels and secondary elements */
-	--bg-3: hsl(220, 15%, 13%);
+	--bg-3: #26201c;
 	/* main background color */
-	--bg-4: hsl(220, 15%, 10%);
+	--bg-4: #1d1916;
 
 	/* color of channels and icon buttons when hovered */
-	--hover: hsla(230, 20%, 40%, 0.1);
+	--hover: #7a5f521a;
 	/* color of channels and icon buttons when clicked or selected */
-	--active: hsla(220, 20%, 40%, 0.2);
+	--active: #7a605233;
 	/* color of messages when hovered */
-	--message-hover: hsla(220, 0%, 0%, 0.1);
+	--message-hover: #0000001a;
 }
